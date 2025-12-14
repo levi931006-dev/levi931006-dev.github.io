@@ -40,16 +40,30 @@ body, html {
   opacity: 0;
   transition: opacity 1s;
   filter: hue-rotate(0deg); /* 初始藍色 */
+   animation: hueCycle 6s linear infinite;
+  box-shadow:
+    0 0 12px rgba(255,255,255,0.35),
+    0 0 40px rgba(255,255,255,0.15);
 }
 
-@keyframes hueShift {
-  0% { filter: hue-rotate(240deg); }     /* 藍 */
-  33.33% { filter: hue-rotate(240deg); } /* 藍維持到72格 */
-  55.55% { filter: hue-rotate(60deg); }  /* 黃 */
-  77.77% { filter: hue-rotate(120deg); } /* 綠 */
-  100% { filter: hue-rotate(300deg); }   /* 紫 */
-}
 
+@keyframes hueCycle {
+  0% {
+    filter: hue-rotate(200deg);
+  }
+  25% {
+    filter: hue-rotate(80deg);
+  }
+  50% {
+    filter: hue-rotate(140deg);
+  }
+  75% {
+    filter: hue-rotate(280deg);
+  }
+  100% {
+    filter: hue-rotate(200deg);
+  }
+}
 .image-container.show {
   opacity: 1;
 }

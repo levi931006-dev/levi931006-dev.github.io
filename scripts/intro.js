@@ -1,6 +1,6 @@
-const line1 = "這是第一行文字";
-const line2 = "這是第二行文字";
-const line3 = "這是第三行文字（圖片後才出現）"; // ★ 新增
+const line1 = "聽說，每個人的靈魂都有不同形態......";
+const line2 = "來一口靈魂軟糖嗎？快測測自己和朋友的靈魂是什麼味道吧！";
+const line3 = "點擊糖果包開始測驗"; // ★ 新增
 
 const line1El = document.getElementById('line1');
 const line2El = document.getElementById('line2');
