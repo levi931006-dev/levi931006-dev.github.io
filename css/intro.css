@@ -41,9 +41,10 @@ body, html {
   transition: opacity 1s;
   filter: hue-rotate(0deg); /* 初始藍色 */
    animation: hueCycle 6s linear infinite;
-  box-shadow:
-    0 0 12px rgba(255,255,255,0.35),
-    0 0 40px rgba(255,255,255,0.15);
+   filter:
+  brightness(1.5)   /* 亮度：1 = 原始 */
+  saturate(1.3);    /* 彩度：1 = 原始 */
+
 }
 
 

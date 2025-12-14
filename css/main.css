@@ -211,6 +211,11 @@ h3 {
 
   width: 1728px;
   height: 972px;
+
+  filter:
+  brightness(1.2)   /* 亮度：1 = 原始 */
+  saturate(1.4);    /* 彩度：1 = 原始 */
+
   
 
   z-index: 999; /* 壓在 nav 與 hero 上 */
