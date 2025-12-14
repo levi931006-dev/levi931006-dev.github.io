@@ -57,7 +57,7 @@ gif.addEventListener("click", () => {
 
   // 3️⃣ 白光之後跳頁（自行調整秒數）
   setTimeout(() => {
-    window.location.href = "index.html"; 
+    window.location.href = "main.html"; 
   }, 900);
 });
 
