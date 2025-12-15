@@ -181,35 +181,26 @@ button.large {
 }
 
 /* 結果頁 */
+
+
 .result-container {
-
-position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-
-  width: 1620px;
-  height: 2674px;
-}
-
-/* .result-container {
      position: relative;
   max-width: 1620px;
-  margin: 0 auto;         
+  margin: 0 auto;          /* ← 真正置中 */
   text-align: center;
   padding: 50px 150px;
   box-sizing: border-box;
 
   
-} */
+}
 
-/* .result-img {
+ .result-img {
      display: block;
   margin: 274px auto 150px; /* 上 左右 下 */
-  /* width: 100%;
+   width: 100%;
   max-width: 1620px;
-  height: auto; */
-/* } */ 
+  height: auto; 
+} 
 
 /* .result-gif {
     position: absolute;
