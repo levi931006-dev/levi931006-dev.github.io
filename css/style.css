@@ -182,24 +182,22 @@ button.large {
 
 /* 結果頁 */
 .result-container {
-      position: relative;
-    margin-left: auto;
-    width: 100vw;
-    text-align: center;
-    padding: 50px 150px;
-  
+     position: relative;
+  max-width: 1620px;
+  margin: 0 auto;          /* ← 真正置中 */
+  text-align: center;
+  padding: 50px 150px;
+  box-sizing: border-box;
 
   
 }
 
 .result-img {
-    position: relative;
-    width: 100%;
-    height: auto;
-    max-width: 1520px;
-    margin-top: 274px;
-    margin-bottom: 150px;
-    box-sizing: border-box;
+     display: block;
+  margin: 274px auto 150px; /* 上 左右 下 */
+  width: 100%;
+  max-width: 1520px;
+  height: auto;
 }
 
 /* .result-gif {
