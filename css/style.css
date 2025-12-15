@@ -184,7 +184,8 @@ button.large {
 .result-container {
     position: relative;
     margin-left: auto;
-    text-align: center;
+    align-items: center;
+    width: 100vw;
 
   
 }
