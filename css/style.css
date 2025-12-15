@@ -182,10 +182,11 @@ button.large {
 
 /* 結果頁 */
 .result-container {
-    position: relative;
+      position: relative;
     margin-left: auto;
-    align-items: center;
     width: 100vw;
+    text-align: center;
+  
 
   
 }
