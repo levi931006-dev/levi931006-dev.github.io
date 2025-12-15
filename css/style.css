@@ -195,10 +195,10 @@ button.large {
 /* .result-img {
      display: block;
   margin: 274px auto 150px; /* 上 左右 下 */
-  width: 100%;
+  /* width: 100%;
   max-width: 1620px;
-  height: auto;
-/* } */ */
+  height: auto; */
+/* } */ 
 
 /* .result-gif {
     position: absolute;
