@@ -185,8 +185,8 @@ button.large {
     position: relative;
     margin-left: auto;
     text-align: center;
-    padding-top: 60px;
-    display: flex;
+
+  
 }
 
 .result-img {
@@ -200,7 +200,7 @@ button.large {
     box-sizing: border-box;
 }
 
-.result-gif {
+/* .result-gif {
     position: absolute;
     width: 500px;
     height: auto;
@@ -208,9 +208,9 @@ button.large {
     right: 0;
     z-index: 2;
     padding: 0 200px;
-    padding-top: 274px;
+    padding-top: 274px; */
 
-}
+/* } */
 
 .result-title {
     font-size: 32px;
