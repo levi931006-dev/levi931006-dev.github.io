@@ -184,7 +184,7 @@ button.large {
 .result-container {
      position: relative;
   max-width: 1620px;
-  margin: 0 auto;          /* ← 真正置中 */
+ 
   text-align: center;
   padding: 50px 150px;
   box-sizing: border-box;
