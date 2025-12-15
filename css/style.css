@@ -182,15 +182,26 @@ button.large {
 
 /* 結果頁 */
 .result-container {
+
+position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 1620px;
+  height: 2674px;
+}
+
+/* .result-container {
      position: relative;
   max-width: 1620px;
- 
+  margin: 0 auto;         
   text-align: center;
   padding: 50px 150px;
   box-sizing: border-box;
 
   
-}
+} */
 
 /* .result-img {
      display: block;
